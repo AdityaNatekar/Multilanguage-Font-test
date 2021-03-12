@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(114, 159, 207);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>540</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 rgb(239, 41, 41), stop: 1 #dadbde);
+      min-width: 80px;
+border-radius:10px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 rgb(239, 41, 41), stop: 1 #f6f7fa);
+border-radius:10px;
+  }</string>
+    </property>
+    <property name="text">
+     <string>CLOSE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #f6f7fa, stop: 1 #dadbde);
+      min-width: 80px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #dadbde, stop: 1 #f6f7fa);
+  }</string>
+    </property>
+    <property name="text">
+     <string>English</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #f6f7fa, stop: 1 #dadbde);
+      min-width: 80px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #dadbde, stop: 1 #f6f7fa);
+  }</string>
+    </property>
+    <property name="text">
+     <string>Japanese</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #f6f7fa, stop: 1 #dadbde);
+      min-width: 80px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #dadbde, stop: 1 #f6f7fa);
+  }</string>
+    </property>
+    <property name="text">
+     <string>Korean</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #f6f7fa, stop: 1 #dadbde);
+      min-width: 80px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #dadbde, stop: 1 #f6f7fa);
+  }</string>
+    </property>
+    <property name="text">
+     <string>German</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #f6f7fa, stop: 1 #dadbde);
+      min-width: 80px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #dadbde, stop: 1 #f6f7fa);
+  }</string>
+    </property>
+    <property name="text">
+     <string>Chinese</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>771</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 215, 207);</string>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>771</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;국교는&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;인정되지&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;아니하며.&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;복수정당제는&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;보장된다,&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;헌법재판소는&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;법률에&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;저촉되지&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;아니하는&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;범위안에서&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;심판에&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;관한&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;절차.&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;어떠한&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;형태로도&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;이를&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;창설할&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;수&lt;span style=&quot; color:#bec0c2;&quot;&gt; &lt;/span&gt;없다.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;사회적&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;특수계급의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;제도는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;인정되지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;아니하며,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;국민은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;직업선택의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;자유를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;가진다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;국회가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;재적의원&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;과반수의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;찬성으로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;계엄의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;해제를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;요구한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;때에는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;대통령은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;이를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;해제하여야&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;한다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;누구든지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;성별·종교&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;또는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;사회적&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;신분에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;의하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;정치적·경제적·사회적·문화적&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;생활의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;영역에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;있어서&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;차별을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;받지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;아니한다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;다만,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;경제주체간의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;조화를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;통한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;경제의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;민주화를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;위하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;경제에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;관한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;규제와&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;조정을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;있다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;제1항의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;탄핵소추는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;국회재적의원&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;3분의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;이상의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;발의가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;있어야&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;하며.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;국회는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;정부의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;동의없이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;정부가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;제출한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;지출예산&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;각항의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;금액을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;증가하거나&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;새&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;비목을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;설치할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;없다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;국민은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;자기의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;행위가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;아닌&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;친족의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;행위로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;인하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;불이익한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;처우를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;받지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;아니한다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;국민은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;보건에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;관하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;국가의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;보호를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;받는다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;대법원과&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;각급법원의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;조직은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;법률로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;정한다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;그&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;임기는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;4년으로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;하며.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;다만,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;강화조약.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;규제·조정할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;있다,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국민은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;행위시의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;범죄를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;구성하지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니하는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;행위로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;소추되지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니하며.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국가는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;전통문화의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;계승·발전과&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;민족문화의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;창달에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;노력하여야&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;한다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;대통령은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국가의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;원수이며.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;경우&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;그&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;명령에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;개정&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;또는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;폐지되었던&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;그&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;명령이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;승인을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;얻지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;못한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;때부터&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;당연히&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;효력을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;회복한다,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;대법원에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;대법관을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;둔다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;제5항에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;확정된&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;후&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;또는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;제4항에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;확정법률이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;정부에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이송된&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;후&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;5일&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이내에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;대통령이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;공포하지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;때에는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국회의장이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;공포한다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;대통령은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국가의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;안위에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;관계되는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;중대한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;교전상태에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;있어서&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국가를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;보위하기&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;위하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;긴급한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;조치가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;필요하고&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국회의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;집회가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;불가능한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;때에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;한하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;효력을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;가지는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;명령을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;발할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;있다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;그&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;임기는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;4년으로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;하며.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국민의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;자유와&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;권리는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;헌법에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;열거되지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이유로&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;경시되지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니한다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국가는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;과학기술의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;혁신과&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;정보&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;및&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;인력의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;개발을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;통하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국민경제의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;발전에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;노력하여야&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;한다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국민은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;정하는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;바에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국방의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의무를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;진다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;모든&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국민은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;근로의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의무를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;진다,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국가는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;청원에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;대하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;심사할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의무를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;진다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;임시회의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;회기는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;30일을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;초과할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;없다,&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;사회적&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;특수계급의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;제도는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;인정되지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니하며.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;정하는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;주요방위산업체에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;종사하는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;근로자의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;단체행동권은&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;정하는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;바에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;이를&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;제한하거나&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;인정하지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;있다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;농지의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;소작제도는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;금지된다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;누구든지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;법률에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의하지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니하고는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;체포·구속·압수·수색&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;또는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;심문을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;받지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;아니하며.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;주권의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;제약에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;관한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;조약.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;새로운&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;회계연도가&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;개시될&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;때까지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;예산안이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의결되지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;못한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;때에는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;정부는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;국회에서&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;예산안이&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;의결될&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;때까지&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;다음의&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;목적을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;위한&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;경비는&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;전년도&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;예산에&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;준하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;집행할&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;있다.&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;군사재판을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;관할하기&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;위하여&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;특별법원으로서&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;군사법원을&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;둘&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;수&lt;/span&gt;&lt;span style=&quot; font-family:'monospace'; color:#bec0c2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;있다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_7">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>771</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Serif fonts are typefaces composed of lines with their ends embellished with small marks or strokes making them easy to read. Serifs originated in the Latin Alphabet. An example of classic serif fonts are Times Roman, New Century Gothic, and Palatino.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Serif fonts are typefaces composed of lines with their ends embellished with small marks or strokes making them easy to read. Serifs originated in the Latin Alphabet. An example of classic serif fonts are Times Roman, New Century Gothic, and Palatino.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Serif fonts are typefaces composed of lines with their ends embellished with small marks or strokes making them easy to read. Serifs originated in the Latin Alphabet. An example of classic serif fonts are Times Roman, New Century Gothic, and Palatino.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Serif fonts are typefaces composed of lines with their ends embellished with small marks or strokes making them easy to read. Serifs originated in the Latin Alphabet. An example of classic serif fonts are Times Roman, New Century Gothic, and Palatino.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>771</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans CJK JP</family>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans CJK JP'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;打ヒエ将木医ルイ請通張んよじけ円無そかのし経療ラを競言ワ渋本フ玲阪ツ情97語ゆッ上暮ラヨトホ加野ヱヘ赤案へ前索ニネ探束報ぶお。権死づむ寿1面ク検議とくふ米囲ちンべづ調57待ぎまどぜ坂芸こずドひ組説サエヤ知減65得いべぎざ京写スの拝英国マ詳作束星れさざゅ。郷ど性旅こはたど戦再ユヒハツ鳥更すで民一ネオ値消購の苦本影づぴら参万ツワハ理務むぽぴぶ文80経メヤリム載増玉境測づむン。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;唯にうどそ告光もじー車令ょ悪協シツニケ方聴登レ面調じでろ株立ぞンみ住視へ健芸ぞんれ版職ゃさつ取他記ノキヱ国稽課露の美専泉到ぎめゆち。将捕ハイヌレ区2暮れひ大見メウナ材援カエロ政頭ユエ写針カアヲオ藪極ユ率成ゅレに生者ソイチフ岩4須ハケサ白校中シヒルフ馬南ヲモ共亨拙淑濱つだぶね。13囲すし決変スへぎ誠感サノ竹9党あべ多恋ホコ使徹ま眼人っけわリ億覧ラぶでス横与企更2開エリメ受若冤ねにご。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-style:italic;&quot;&gt;庭速ユイ湯天ヱ強一ウチナホ学入ひも発島1覧りぞ山阪ぽろ手田史てク打協ぎべとち応12必ンざく育比げーお笑盛ひ軽処輪育ぶ。区89過術ずちあ生米生が際陸サ試8像ウマニケ田社ぴお員報業キ第母ケ別子ミケワ坊研カホリマ文新フ画文イずろま簿禁ソマイ提試版ド。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; font-style:italic;&quot;&gt;得ヲラク題4会てんきつ上月コ避20再打描崎79再打描崎6代ぼを科士記ら表仕ヨム法街堀す明勝智ヒニウ子身てさち省別ロ辺合レろば防極変そのト描豪べゆぶえ。組あだほ要製ウサ億義いイふ度国ユヌイト係案れ祭焼トヨリノ式23旅基カニム断情ぼじび減属表御け申構クね代他メ森世一チエレ勢増つほても年田ヨアフレ更問えみフゅ。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; text-decoration: underline;&quot;&gt;34定せ太園要ラ年18中やてにゃ早見レゅ掲額むトる済裁や質山58歌んイべ話際トぜ探早世瀬捕ゅスまゃ。世べんら導維のと告際り作備ゃ縄異疑ヤネ率室カニチ景木モ給活アスニケ返帯フヒアコ部29合な朝倒フごイ容生サヤ頻作議オサタ両馬つとをゆ旅独ムリ大智湾緩ょまゃけ。名カス保女97由タ顔愛特件コ中午つとをね門就域オ俳記か柏苦カナ病守ツタサ航敗事ハシツ別質ぼちあフ菊父覧花てくの。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;傍いドけな電陵ムオニ国能ねじ能整6模ろゃ必75戦フ通更府煎ー宝塚近けくを南開伏涙め。間会度ハコヤル報子きなどは体9劇チム輪教おちも性去ハケモヒ支作アウセヒ関更まンざリ止企81変ずんラじ波質かき寄産ムチ代行く伴服ケコ員校尊析毛ラぱリ。点サノネ証界ょさ日重ゆばぎど使気をく総気均で重治図ど声47岸ハ上柳ルメソト西読イテ炎題ヤ座野ーょンあ意友カ速作ハラニリ映禁ク著増開字ぴ。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;住治は伝道選桶ケセヱア旅覧ヤタ棋教加ニ世阪モセ給経ろ居49売にち期伝贈ふ。月ぎわ流修ヘ際究ロヤ社稿レヘホ方雑ヌネヱニ府旅シノヘ試禁チ文目ワハ計定た巻典自ヘ身県茶ょぱぴぜ留進現イ突書ま環記ぐみ権続るひぼ紙球跡ス。期すぜご無絶前ドへなか無県よ自口ホオヱチ載5補エクリ多59体っ施63業つび西世ぴせ先町ゆまごな南研みゃリ族網百まぜづと時荒衝貨ねみ。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;宇改トスネ弱質ラネヌ氏芸あぱぞン話光チ草締ナリレネ図客ヒヌク権品売ちリ毎場ワメユケ注共をたて力融にきづれ防君びざこ果署トフれぶ停屋へ。芸載ル果事権じフ係訪トたん写言公ーてくま整盗ぞうだで投建52議ルクワ腹質さもほ百重喜歓どごぽば生庭ユメ写掲いてゃ漢徴お。座ナモ在対少ウキノ判47載ヒヤ風田オヒヨ約要わきざづ宗55元とこ読皇ワテエネ哲建サハネ月安らすゅざ。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;藤ム館広ホ聞写ずぐぴ得59広テス流展ウ動展たぴぶ土文壁へン則区オツチ重無おと運3光と治状貴九じンやょ賛重統ホケヤタ合26十如んれレ。公チネ進佐スコホミ方表スラ問9性ねだた政週用えフを読中ほドよぼ採分実玲ゅけをぼ変紙んすド情報わおため口社タ回従っだ和出ヱケワセ室投つめる亡解総れをけゅ。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;知葉せょ集線5唆ンほ半起フヒ権宿際テアヒ数全ミ民検ぎ中最ムレスヲ電可めさイ政提平ムホ能火む。就ずびに応入ぼょゃだ度記みきさよ禁動うむゃ勢淀っう点14運消15山もなろ難家訪ルヌ著瀬ぐどぴ交転ドが目越ーえむゃ接優裁ゆうけご中悪っ講組ゆごく。王写なえクね併欲だぴん医読すト潘21改作ノシヒ毎月ヲカヘ王国開オ営有ヒ的望カノユ官直メ島変アフ切橋ヒトフ本運再倫剖みきお。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QTextEdit" name="textEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>771</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Serif CJK JP ExtraLight</family>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Serif CJK JP ExtraLight'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;進食束断面師支加量航著救動政芸盟際政。物首害落文男報式散以半製理境駆打経谷念勝。除健備細庫慌総繰大軽価米中目杯扱査名女。雄景映球念必盛本川殺暮医原傷百応木週。母庭際業航入写報苦救審印原上止。終胃東更鉄茨得多任弾属去重変開国情。入止線稿豪応手場右調歳平。足日希勇三庭歌身脚道極業。大険応新真示察惑男善要後病井人稿購聞務。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;変難期果球教軟福子道問申探載案歩上。者嫁林問有提会度柄確属質肢子和。条裁家関午欲動飲陸勝訪泉害勲警無長初日。旅族在京経野書扱中賢司記。機済説合社再話勝外式弘線際組日目田報色。治質却加再家携手割率民稿頼学減北題注数図。説戻不質堀短第済走毎現防手速貴平動断県。次坊確健廃愛遊立夜削均革山断詳倉回配学幅。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;筆密彦読乱西就引持同創止手歳。信国備集再落誌軍出最自星会羊岡仕送高自。割期市銀立連捕育魅康計権郷両中。不世引照高自豆別街挙禁回借転使地稿。経際延独葉田賞子吉果町油。供集維要私七英注記児発介数住林。化通名任酔円雅好治規祖十闘辞。剛示引写自賀新呂歩対米頭。堀提室猪毎講急予症夜真筑験題士事観。否右課飛在内記山章軽作野甘風暮。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; font-style:italic; text-decoration: underline;&quot;&gt;決面腹本版民全幅死回需受議田掲称化回奈約。断身夫能国国最事心事要国展概水取経愛部。応愛際将碁事真路善意特第然。強起関辞長明目著熊硬済好実委権取治曜。館移治秋写要宗各通現表速風報読実面覧回少。済押辞強世情明間方報朝電見藤関芸権問虚一。半断闘瞬携一高輸敗犯国勝一大通掲。跡好展期安張著薬楽懲時詰順。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;問向好本婦入面条神外中定周豆環決開観政。告掲社若支被乱兵占写敵金内次禁応情作要在。渡断況見第解採年約航行済費。他春扱止大録径更日海昨読雄攻察。情感外題企的業用因裁時案爆年最分大及。基深動際位金権覚不氷当耳察。全営武変現追馬康格位使車訓茅。物合覧入決野書設原寒官配。測王役板毎企無南土金上反済障場図教。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;載報騒医早工南社需盗竹必末門世。来明送命触経学辞教主新思汚量。室付桂皇製記置速勝共代鳥孝。樹求越派謙化軽図経玉海約欠訴発車情東。課対高上掲覧再界増号次調軍管社準周平。北週式婚棋悪拳掲介査著浅嗣中登決質。悩万転周界所法除池物適酔無商作載藤際。内基米隊間聞勤境掲転明井保整密倒通今人体。販社部近相続化衛図峡多紙名経康。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;必計内周康目江学装車営向化愛知意海損治表。明被朝組掲価周無弁断演聴献以。空護特骨所投州坂利政基掲載休変後。月要敬家立既会近供告文資誓法軽報全。爆立国師脳索告品第健校民南則事座。説既図覧型理用店汁朝役観逃地倉込医東。掲測変皇児聖明提伊位到気体嶋提要新右断。治作属意著芸会止降聞左実毎紙。問和共目以確断治庭載米木社選歴。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;得力垣全用石客総臨涼文有検鉄。品絵実堀見暮真放友都許組別激画。極業活安公大禁林釣読変新支報昨仕行。詳多倍害中用覧可野会持広。人朝徳供主哉区究字訪市知義質者全共。碁講神限属期切行一天都提日属経生。解処容子変良暮午企本井化。補年紙面品事面係民埼互現老務。写日教幟嘉転本崎惑相聞平福現。頼第高拓安感一母司策用隆近伝正週分中業。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;読労二環旅節麻容帳副覧聴図止誤事視撃独。断社本覚間購聞無法特際媛衆医今寒。南知験望富生間人毅道挙結愛竹神社聞文再。交遊了票意村手内芸経求降察聞。問小兆害国要自准応改表変枝西式南沢北医共。方代花組弥秋情意新屋刷告保児。援謝害賄常選計表宣事意画者必六塁式。米離坊毎山最発系転会請健文。年軒時江寄合案日小勧備挙様崎事異。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;験非券歌済判回花聞行進増覧置。皇鑑言外印品階式能小俳妙辺。供山伏優男今平死比歩動趣殿。経康土拳良城夜業音戻経己生観視。択績誌売組行準離周紙促合旅控夜断社。回岡真厳合棚遊医度旅約行事属。負舞学紙治果約会児制主形華改。聞欧傷再何巨帯入稲被国民定扱作成国掲官。首育聞分念明数利読掲県本帳加検介。系興幸化権浮写通優仙際直認平作。進食束断面師支加量航著救動政芸盟際政。物首害落文男報式散以半製理境駆打経谷念勝。除健備細庫慌総繰大軽価米中目杯扱査名女。雄景映球念必盛本川殺暮医原傷百応木週。母庭際業航入写報苦救審印原上止。終胃東更鉄茨得多任弾属去重変開国情。入止線稿豪応手場右調歳平。足日希勇三庭歌身脚道極業。大険応新真示察惑男善要後病井人稿購聞務。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;変難期果球教軟福子道問申探載案歩上。者嫁林問有提会度柄確属質肢子和。条裁家関午欲動飲陸勝訪泉害勲警無長初日。旅族在京経野書扱中賢司記。機済説合社再話勝外式弘線際組日目田報色。治質却加再家携手割率民稿頼学減北題注数図。説戻不質堀短第済走毎現防手速貴平動断県。次坊確健廃愛遊立夜削均革山断詳倉回配学幅。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;筆密彦読乱西就引持同創止手歳。信国備集再落誌軍出最自星会羊岡仕送高自。割期市銀立連捕育魅康計権郷両中。不世引照高自豆別街挙禁回借転使地稿。経際延独葉田賞子吉果町油。供集維要私七英注記児発介数住林。化通名任酔円雅好治規祖十闘辞。剛示引写自賀新呂歩対米頭。堀提室猪毎講急予症夜真筑験題士事観。否右課飛在内記山章軽作野甘風暮。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;決面腹本版民全幅死回需受議田掲称化回奈約。断身夫能国国最事心事要国展概水取経愛部。応愛際将碁事真路善意特第然。強起関辞長明目著熊硬済好実委権取治曜。館移治秋写要宗各通現表速風報読実面覧回少。済押辞強世情明間方報朝電見藤関芸権問虚一。半断闘瞬携一高輸敗犯国勝一大通掲。跡好展期安張著薬楽懲時詰順。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;問向好本婦入面条神外中定周豆環決開観政。告掲社若支被乱兵占写敵金内次禁応情作要在。渡断況見第解採年約航行済費。他春扱止大録径更日海昨読雄攻察。情感外題企的業用因裁時案爆年最分大及。基深動際位金権覚不氷当耳察。全営武変現追馬康格位使車訓茅。物合覧入決野書設原寒官配。測王役板毎企無南土金上反済障場図教。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;載報騒医早工南社需盗竹必末門世。来明送命触経学辞教主新思汚量。室付桂皇製記置速勝共代鳥孝。樹求越派謙化軽図経玉海約欠訴発車情東。課対高上掲覧再界増号次調軍管社準周平。北週式婚棋悪拳掲介査著浅嗣中登決質。悩万転周界所法除池物適酔無商作載藤際。内基米隊間聞勤境掲転明井保整密倒通今人体。販社部近相続化衛図峡多紙名経康。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;必計内周康目江学装車営向化愛知意海損治表。明被朝組掲価周無弁断演聴献以。空護特骨所投州坂利政基掲載休変後。月要敬家立既会近供告文資誓法軽報全。爆立国師脳索告品第健校民南則事座。説既図覧型理用店汁朝役観逃地倉込医東。掲測変皇児聖明提伊位到気体嶋提要新右断。治作属意著芸会止降聞左実毎紙。問和共目以確断治庭載米木社選歴。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;得力垣全用石客総臨涼文有検鉄。品絵実堀見暮真放友都許組別激画。極業活安公大禁林釣読変新支報昨仕行。詳多倍害中用覧可野会持広。人朝徳供主哉区究字訪市知義質者全共。碁講神限属期切行一天都提日属経生。解処容子変良暮午企本井化。補年紙面品事面係民埼互現老務。写日教幟嘉転本崎惑相聞平福現。頼第高拓安感一母司策用隆近伝正週分中業。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;読労二環旅節麻容帳副覧聴図止誤事視撃独。断社本覚間購聞無法特際媛衆医今寒。南知験望富生間人毅道挙結愛竹神社聞文再。交遊了票意村手内芸経求降察聞。問小兆害国要自准応改表変枝西式南沢北医共。方代花組弥秋情意新屋刷告保児。援謝害賄常選計表宣事意画者必六塁式。米離坊毎山最発系転会請健文。年軒時江寄合案日小勧備挙様崎事異。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;験非券歌済判回花聞行進増覧置。皇鑑言外印品階式能小俳妙辺。供山伏優男今平死比歩動趣殿。経康土拳良城夜業音戻経己生観視。択績誌売組行準離周紙促合旅控夜断社。回岡真厳合棚遊医度旅約行事属。負舞学紙治果約会児制主形華改。聞欧傷再何巨帯入稲被国民定扱作成国掲官。首育聞分念明数利読掲県本帳加検介。系興幸化権浮写通優仙際直認平作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;测试中文字体：你好吗&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QTextEdit" name="textEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>771</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Serif CJK JP ExtraLight</family>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Serif CJK JP ExtraLight'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:18px; color:#000000;&quot;&gt;eutsches Ipsum Dolor quo Wurst posidonium Warmduscher adhuc Erbsenzähler sadipscing Nackenheim at, Brezel mei Brezel gloriatur.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Roboto','sans-serif'; font-size:18px; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:18px; font-style:italic; color:#000000;&quot;&gt;Eichhörnchen inermis Projektplanung accommodare Ampelmännchen Id Doppelscheren-Hubtischwagen assum HugoClub Mate te Vorsprung durch Technik erroribus Volkswagen Nec Schnaps amet Kreuzberg iriure, Juttensack gloriatur bitte ut. Herr Doktor virtute Schnaps per Autobahn At Apfelschorle scaevola Wurst An Jürgen Klinsmann malorum Welt ius id Meerschweinchen indoctum über pri, Pfannkuchen meliore Milka nominavi Audi Elitr Milka nam Umsatzanalyse his Freude schöner Götterfunken reque Audi assentior. Fußball principes Volkswagen ex Bezirksschornsteinfegermeister Ut Schweinsteiger solum genau quas Welt adversarium Gesundheit ius, Freude schöner Götterfunken minim Bier eum Guten Tag persecuti Riesling mel. Oktoberfest oratio Audi vix. Gesundheit eloquentiam genau per.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Roboto','sans-serif'; font-size:18px; font-style:italic; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:18px; font-weight:600; color:#000000;&quot;&gt;Sauerkraut complectitur Lukas Podolski no.&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:18px; color:#000000;&quot;&gt; Aperol Spritz illud Mettwurst ut, Hörspiele pro Zauberer minim Käsefondue natum Weltschmerz mel Meerschweinchen Sea genau singulis Turnbeutel amet, Milka adipiscing Projektplanung sed Mertesacker eiusmod Weihnachten incididunt genau labore Ich bin ein Berliner dolore Fernweh aliqua. Reinheitsgebot enim Kirschkerne minim Apfelstrudel quis Rotwurst exercitation Schnaps laboris Prost ut was machst du ex Angela Merkel commodo Schadenfreude Duis Mercedes Benz irure Mesut Özil in Sauerkraut in Landjaeger velit Entschuldigung cillum Ohrwurm eu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Roboto','sans-serif'; font-size:18px; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:18px; font-weight:600; font-style:italic; text-decoration: underline; color:#000000;&quot;&gt;Ampelmännchen nulla Kreuzberg Excepteur Freude schöner Götterfunken occaecat Brezel non Heisenberg sunt Aufschnitt culpa Ich bin ein Berliner officia Bier mollit Schnaps id Hamburg laborum&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QTextEdit" name="textEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>0</y>
+        <width>381</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans CJK JP</family>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans CJK JP'; font-size:11pt; font-weight:600; font-style:italic;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTreeWidget" name="fontTree">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>381</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+   
+     border: 1px solid #8f8f91;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #f6f7fa, stop: 1 #dadbde);
+      min-width: 80px;
+border-radius:10px;
+  }
+
+  QPushButton:pressed {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #dadbde, stop: 1 #f6f7fa);
+border-radius:10px;
+  }
+
+</string>
+    </property>
+    <property name="text">
+     <string>Font Tree</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
